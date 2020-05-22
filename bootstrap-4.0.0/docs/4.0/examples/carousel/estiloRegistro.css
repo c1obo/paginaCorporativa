@@ -11,7 +11,7 @@
   
   .lh-condensed { line-height: 1.25; }
   body {
-
+    margin: auto;
     -ms-flex-align: center;
     -ms-flex-pack: center;
     -webkit-box-align: center;

@@ -7,11 +7,13 @@
     <link rel="icon" href="../../../../favicon.ico">
 
     <title>registro</title>
-
+    <script type="text/javascript" src="formulario.js">
+    </script>
     <!-- Bootstrap core CSS -->
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    
     <link href="estiloRegistro.css" rel="stylesheet">
     
     
@@ -55,11 +57,11 @@
         
         <div class="col-md-8 order-md-1">
           
-          <form class="needs-validation" novalidate>
+          <form class="needs-validation" novalidate action="saludo.html">
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">Nombre</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
@@ -96,7 +98,7 @@
 
 
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Registrar</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" name="Enviar">Registrar</button>
           </form>
         </div>
       </div>
